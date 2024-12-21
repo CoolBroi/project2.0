@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leveled Homepage</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background-color: #f8f9fa;
+    }
+    .images-row img {
+      border-radius: 8px;
+      width: 100%;
+      height: auto;
+    }
+    .impact {
+      background-color: #f8f9fa;
+      padding: 3rem 2rem;
+    }
+    .solution-section {
+      padding: 3rem 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+  <div class="container">
+    <a class="navbar-brand" href="#">LEVELed</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Investments</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Owners/Brokers</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Lorem Ipsum</a></li>
+        <li class="nav-item"><a class="btn btn-outline-dark me-2" href="#">Login</a></li>
+        <li class="nav-item"><a class="btn btn-dark" href="#">Sign Up</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <h1 class="display-5 fw-bold">Own a piece of Main Street: Join the SMB revolution!</h1>
+  <p class="lead">Diversify your portfolio – unlock the attractive returns of Small-Medium Businesses without any of the operational burden.</p>
+  <a class="btn btn-dark btn-lg" href="#">Join the Waitlist →</a>
+</section>
+
+<!-- Images Section -->
+<div class="container py-5">
+  <div class="row images-row g-3">
+    <div class="col-6 col-md-3"><img src="image1.jpg" alt="Business 1"></div>
+    <div class="col-6 col-md-3"><img src="image2.jpg" alt="Business 2"></div>
+    <div class="col-6 col-md-3"><img src="image3.jpg" alt="Business 3"></div>
+    <div class="col-6 col-md-3"><img src="image4.jpg" alt="Business 4"></div>
+  </div>
+</div>
+
+<!-- Statistics Section -->
+<div class="impact text-center">
+  <h3>Our impact and achievements</h3>
+  <div class="row mt-4">
+    <div class="col-md-3"><strong>120</strong><br>Assets under management</div>
+    <div class="col-md-3"><strong>500$</strong><br>Of cash flow distributed</div>
+    <div class="col-md-3"><strong>10-40%</strong><br>Return on investment</div>
+    <div class="col-md-3"><strong>500</strong><br>Existing investors</div>
+  </div>
+</div>
+
+<!-- Featured In -->
+<section class="py-5">
+  <div class="container text-center">
+    <h2 class="mb-4">Featured In</h2>
+    <div class="d-flex justify-content-center align-items-center">
+      <!-- Company Logo 1 -->
+      <img src="https://via.placeholder.com/150x100" class="mx-3" alt="Company 1">
+      <!-- Company Logo 2 -->
+      <img src="https://via.placeholder.com/150x100" class="mx-3" alt="Company 2">
+      <!-- Company Logo 3 -->
+      <img src="https://via.placeholder.com/150x100" class="mx-3" alt="Company 3">
+      <!-- Company Logo 4 -->
+      <img src="https://via.placeholder.com/150x100" class="mx-3" alt="Company 4">
+      <!-- Company Logo 5 -->
+      <img src="https://via.placeholder.com/150x100" class="mx-3" alt="Company 5">
+    </div>
+  </div>
+</section>
+
+<!-- Business Model Section -->
+<section class="solution-section">
+  <div class="container">
+    <h3 class="text-center mb-5">Win-win business model</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="p-4 bg-light rounded">
+          <h5>The problem</h5>
+          <p>Small businesses are the cornerstone of the American economy, providing ~50% of all employment...</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h5>Our solution</h5>
+        <p>Leveled is an innovative platform that aims to democratize small business ownership...</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Industry Verticals Section -->
+<section class="py-5">
+  <div class="container text-center">
+    <h2 class="mb-4">Industry Verticals</h2>
+    
+    <!-- Image container -->
+    <div class="d-flex justify-content-center overflow-hidden" id="image-container" style="white-space: nowrap;">
+      <!-- First set of 3 images (visible initially) -->
+      <div class="image-set d-flex justify-content-center">
+        <img src="https://via.placeholder.com/200x150" class="me-3" alt="Industry 1">
+        <img src="https://via.placeholder.com/200x150" class="me-3" alt="Industry 2">
+        <img src="https://via.placeholder.com/200x150" class="me-3" alt="Industry 3">
+      </div>
+    </div>
+    
+    <!-- Show More Button -->
+    <div class="d-flex justify-content-center mt-4">
+      <button id="next-btn" class="btn btn-primary">→ Show More</button>
+    </div>
+  </div>
+</section>
+
+<!-- How It Works Section -->
+<section class="py-5 bg-light">
+  <div class="container text-center">
+      <h2 class="mb-4">How it works</h2>
+      <div class="row">
+          <div class="col-md-4 text-left">
+              <img src="https://via.placeholder.com/150" alt="Browse Image" class="img-fluid mb-3">
+              <h5>1. Browse</h5>
+              <p>Browse leveled SMBs, which are listed after thorough due diligence and operators have been put in place.</p>
+          </div>
+          <div class="col-md-4 text-center">
+              <img src="https://via.placeholder.com/150" alt="Invest Image" class="img-fluid mb-3">
+              <h5>2. Invest</h5>
+              <p>Make informed investment decisions by selecting opportunities that align with your financial goals and risk tolerance.</p>
+          </div>
+          <div class="col-md-4 text-right">
+              <img src="https://via.placeholder.com/150" alt="Earn Image" class="img-fluid mb-3">
+              <h5>3. Earn</h5>
+              <p>Enjoy the benefits of passive income through consistent returns from your investments in SMBs.</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Benefits Section -->
+<section class="py-5">
+  <div class="container">
+      <h2 class="mb-4 text-center">Benefits</h2>
+      <div class="row align-items-center">
+          <div class="col-md-6">
+              <img src="benefits 2.jpg" alt="Benefits Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+              <div class="mb-4">
+                  <h5 class="mb-3"></h5>
+                  <h5><span class="benefit-number">01</span> Passive Income</h5>
+                  <p>Generate consistent cash flow through the active management and operational support of SMB investments, providing you with a stable source of income.</p>
+              </div>
+              <div class="mb-4">
+                  <h5><span class="benefit-number">02</span> Diversify Portfolio</h5>
+                  <p>Expand your investment horizon by adding SMBs across various industries to your portfolio, helping reduce risks and enhancing returns over time.</p>
+              </div>
+              <div class="mb-4">
+                  <h5><span class="benefit-number">03</span> No Operational Headache</h5>
+                  <p>Let us handle the day-to-day complexities of running a business, so you can enjoy the benefits without the stress or time commitment.</p>
+              </div>
+              <div class="mb-4">
+                  <h5><span class="benefit-number">04</span> Value Appreciation</h5>
+                  <p>Benefit from long-term growth as SMBs improve their operational efficiency, increase revenue streams, and appreciate in overall value.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<!-- FAQs Section -->
+<section class="py-5 bg-light">
+  <div class="container">
+      <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+      <div class="accordion" id="faqAccordion">
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Who can invest on Leveled?
+                  </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                      Anyone who meets the eligibility criteria defined by Leveled can invest. This typically includes being of legal age and meeting specific financial or accreditation requirements.
+                  </div>
+              </div>
+          </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      What is the minimum investment amount?
+                  </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                      The minimum investment amount varies depending on the specific SMB opportunity but generally starts at $1,000.
+                  </div>
+              </div>
+          </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      What kind of returns can I expect from SMB investing?
+                  </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                      Returns vary by investment but can include both passive income from dividends and potential long-term capital appreciation.
+                  </div>
+              </div>
+          </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      How does Leveled make money?
+                  </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                      Leveled earns revenue through a combination of management fees, platform fees, and a share of the profits on certain investment opportunities.
+                  </div>
+              </div>
+          </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      What is the time horizon of investment?
+                  </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                      Investment horizons depend on the SMB and can range from a few months to several years, as outlined in the investment details.
+                  </div>
+              </div>
+          </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      How can I liquidate my investment?
+                  </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                      Liquidity options are limited and depend on the specific terms of the SMB investment. Some investments may offer buy-back options or secondary market sales.
+                  </div>
+              </div>
+          </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSeven">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                      What criteria does Leveled utilize for investments?
+                  </button>
+              </h2>
+              <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                      Leveled conducts thorough due diligence, evaluating SMBs based on financial performance, market potential, and operational stability.
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Success Stories Section -->
+<section class="py-5">
+  <div class="container text-left">
+      <h2 class="mb-4">Success Stories</h2>
+      <blockquote class="blockquote">
+          <p>"The platform is very easy to use,and I now have a stable passive income. I really like it, highly recommended!"</p>
+          <footer class="blockquote-footer">David Smith</footer>
+      </blockquote>
+  </div>
+</section>
+
+<!-- Call to Action Section -->
+<section class="py-5 bg-primary text-white text-center">
+  <div class="container">
+      <h2>Start investing with us</h2>
+      <p>Join the waitlist now!</p>
+      <a href="#" class="btn btn-light">Join the Waitlist</a>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
